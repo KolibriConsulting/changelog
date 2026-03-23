@@ -1,0 +1,20 @@
+name: Maillage-Soliconnect
+description: soliconnect maillage
+repository: https://github.com/KolibriConsulting/changelog   # optionnel
+
+versions:
+  - version: "1.5.0"
+    date: "2026-03-21"
+    changes:
+      - type: added      # added|changed|fixed|deprecated|removed|security|breaking
+        description: La page annuaire possède la recherche alphabétique 
+      - type: changed
+        description: La page membre a été changée pour être plus simple à modifier/encoder. 
+      - type: added
+        description: Pouvoir modifier un membre dans son institution
+
+upcoming:
+  - title: Recherche plus pertinente
+    description: Quand on clique sur une lettre, on a uniquement les lettres "A"
+    priority: medium       # high | medium | low
+    milestone: v1.6.0
