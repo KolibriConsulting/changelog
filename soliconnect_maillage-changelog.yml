@@ -15,6 +15,6 @@ versions:
 
 upcoming:
   - title: Recherche plus pertinente
-    description: Quand on clique sur une lettre, on a uniquement les lettres "A"
+    description: Quand on clique sur une lettre, on a uniquement les lettres qui apparaissent. 
     priority: medium       # high | medium | low
     milestone: v1.6.0
