@@ -3,15 +3,6 @@ description: soliconnect maillage
 repository: https://github.com/KolibriConsulting/changelog   # optionnel
 
 versions:
-  - version: "1.5.0"
-    date: "2026-03-21"
-    changes:
-      - type: added      # added|changed|fixed|deprecated|removed|security|breaking
-        description: La page annuaire possède la recherche alphabétique 
-      - type: changed
-        description: La page membre a été changée pour être plus simple à modifier/encoder. 
-      - type: added
-        description: Pouvoir modifier un membre dans son institution
   - version: "1.6.0"
     date: "2026-03-24"
     changes:
@@ -31,6 +22,15 @@ versions:
         description: Suppression de l’onglet utilisateur dans l’admin
       - type: added
         description: Migration de la gestion des utilisateurs vers "admissions (membre)" pour simplifier l’utilisation
+  - version: "1.5.0"
+    date: "2026-03-21"
+    changes:
+      - type: added      # added|changed|fixed|deprecated|removed|security|breaking
+        description: La page annuaire possède la recherche alphabétique 
+      - type: changed
+        description: La page membre a été changée pour être plus simple à modifier/encoder. 
+      - type: added
+        description: Pouvoir modifier un membre dans son institution
 
 upcoming:
   - title: Recherche plus pertinente
