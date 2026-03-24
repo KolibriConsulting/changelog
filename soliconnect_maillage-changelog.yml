@@ -12,6 +12,25 @@ versions:
         description: La page membre a été changée pour être plus simple à modifier/encoder. 
       - type: added
         description: Pouvoir modifier un membre dans son institution
+  - version: "1.6.0"
+    date: "2026-03-24"
+    changes:
+      - type: changed
+        description: Refonte du dashboard admin pour le rendre plus clair et lisible
+      - type: removed
+        description: Suppression du système de tickets, remplacé par des mails de mise à jour
+      - type: fixed
+        description: Correction des fautes d’orthographe globales
+      - type: changed
+        description: Modification du nom "contacts" pour le rendre plus explicite
+      - type: fixed
+        description: Correction de l’erreur de statut dans les actions
+      - type: fixed
+        description: Correction de l’erreur dans la fiche description des actions
+      - type: removed
+        description: Suppression de l’onglet utilisateur dans l’admin
+      - type: added
+        description: Migration de la gestion des utilisateurs vers "admissions (membre)" pour simplifier l’utilisation
 
 upcoming:
   - title: Recherche plus pertinente
