@@ -1,39 +1,144 @@
 name: Maillage-Soliconnect
-description: soliconnect maillage
-repository: https://github.com/KolibriConsulting/changelog   # optionnel
+description: Maillage Soliconnect - Suivi des évolutions et correctifs
+repository: https://github.com/KolibriConsulting/changelog
 
 versions:
-  - version: "1.6.0"
+  - version: "1.4.0"
+    date: "2026-04-20"
+    changes:
+      - type: fixed
+        description: Ajout d’une page manquante dans la section "proposition"
+      - type: fixed
+        description: Correction d’une erreur dans la gestion des institutions
+      - type: fixed
+        description: Résolution d’un problème d’affichage sur la carte
+      - type: removed
+        description: Suppression de la catégorie redondante dans le back-office (institution)
+      - type: added
+        description: Ajout d’une fonctionnalité de recherche dans "mon espace" et la page des actions
+
+  - version: "1.3.0"
+    date: "2026-04-16"
+    changes:
+      - type: fixed
+        description: Correction d’une erreur dans la gestion des services
+      - type: fixed
+        description: Résolution du problème de mise en majuscule des noms de villes
+      - type: fixed
+        description: Correction des erreurs sur la page carte et résolution d’un problème npm
+      - type: fixed
+        description: Correction du nom des actualités (événements et articles) dans les formulaires
+      - type: removed
+        description: Suppression des descriptions en double
+      - type: removed
+        description: Retrait de la validation des comptes dans le back-office des institutions
+      - type: added
+        description: Intégration des rendez-vous dans le planning
+      - type: added
+        description: Ajout d’un filtre par première lettre du nom d’utilisateur dans l’annuaire
+      - type: added
+        description: Affichage des informations institutionnelles dans les services
+      - type: changed
+        description: Mise à jour de la taille des caractères
+
+  - version: "1.2.0"
+    date: "2026-04-15"
+    changes:
+      - type: fixed
+        description: Correction de l’erreur lors de la suppression de documents
+      - type: fixed
+        description: Résolution des problèmes d’affichage des événements dans l’espace de travail et la liste "mon espace"
+      - type: removed
+        description: Suppression des anciennes sous-sections obsolètes
+      - type: changed
+        description: Transformation du nom en icône (remplacement du texte par des pictogrammes)
+      - type: fixed
+        description: Correction des fautes de typographie ("s" manquant dans certains mots)
+      - type: added
+        description: Ajout de la possibilité de supprimer un document
+      - type: removed
+        description: Retrait de l’option d’invitation dans l’espace de travail, remplacée par une gestion directe des membres
+      - type: changed
+        description: Traduction des éléments dans l’espace de travail
+      - type: changed
+        description: Mise à jour de la gestion des membres dans l’espace de travail
+      - type: changed
+        description: Réorganisation de la position entre l’espace de travail et les détails des actions
+
+  - version: "1.1.0"
+    date: "2026-04-14"
+    changes:
+      - type: changed
+        description: Mise à jour du déploiement et de l’inventaire
+
+  - version: "1.0.0"
+    date: "2026-04-14"
+    changes:
+      - type: fixed
+        description: Correction des erreurs de build
+      - type: fixed
+        description: Résolution des problèmes de packages (multiples corrections)
+      - type: fixed
+        description: Correction du bouton "retour" sur la page d’accueil du tableau de bord
+      - type: fixed
+        description: Résolution des erreurs de compilation TypeScript (tsx)
+      - type: fixed
+        description: Correction des erreurs de gestion des profils utilisateurs et des tokens
+      - type: added
+        description: Chargement dynamique des institutions et rôles dans le formulaire d’inscription
+      - type: added
+        description: Ajout des environnements staging et production + création du changelog
+      - type: added
+        description: Implémentation de la fonctionnalité d’inscription
+      - type: added
+        description: Déploiement du module backoffice avec tableau de bord, projets, personnes et institutions
+      - type: added
+        description: Implémentation des opérations CRUD pour la gestion des institutions avec formulaires modaux
+      - type: added
+        description: Intégration des traductions i18n dans les composants organisation et service
+      - type: added
+        description: Connexion aux données API réelles pour les détails des institutions et services
+      - type: added
+        description: Ajout du contexte d’authentification et des pages protégées
+      - type: added
+        description: Complétion des pages du tableau de bord et intégrations API
+      - type: added
+        description: Finalisation des pages institutions/services, projets/actions et espace de travail des actions
+      - type: added
+        description: Ajout des filtres de recherche (sous-rubrique et commune) dans l’annuaire des institutions
+      - type: added
+        description: Implémentation des tests pour les API
+      - type: changed
+        description: Amélioration de l’internationalisation (fr/en)
+      - type: added
+        description: Activation de la liste des utilisateurs dans le module organisation
+
+  - version: "0.2.0"
+    date: "2026-03-21"
+    changes:
+      - type: added
+        description: Ajout de la recherche alphabétique dans la page annuaire
+      - type: changed
+        description: Simplification de la page membre pour une édition plus intuitive
+      - type: added
+        description: Possibilité de modifier un membre directement depuis son institution
+
+  - version: "0.1.0"
     date: "2026-03-24"
     changes:
       - type: changed
-        description: Refonte du dashboard admin pour le rendre plus clair et lisible
+        description: Refonte du tableau de bord admin pour plus de clarté et de lisibilité
       - type: removed
-        description: Suppression du système de tickets, remplacé par des mails de mise à jour
+        description: Suppression du système de tickets, remplacé par des emails de mise à jour
       - type: fixed
         description: Correction des fautes d’orthographe globales
       - type: changed
-        description: Modification du nom "contacts" pour le rendre plus explicite
+        description: Renommage de la section "contacts" pour plus de clarté
       - type: fixed
         description: Correction de l’erreur de statut dans les actions
       - type: fixed
-        description: Correction de l’erreur dans la fiche description des actions
+        description: Correction de l’erreur dans la fiche descriptive des actions
       - type: removed
         description: Suppression de l’onglet utilisateur dans l’admin
       - type: added
         description: Migration de la gestion des utilisateurs vers "admissions (membre)" pour simplifier l’utilisation
-  - version: "1.5.0"
-    date: "2026-03-21"
-    changes:
-      - type: added      # added|changed|fixed|deprecated|removed|security|breaking
-        description: La page annuaire possède la recherche alphabétique 
-      - type: changed
-        description: La page membre a été changée pour être plus simple à modifier/encoder. 
-      - type: added
-        description: Pouvoir modifier un membre dans son institution
-
-upcoming:
-  - title: Recherche plus pertinente
-    description: Quand on clique sur une lettre, on a uniquement les lettres qui apparaissent. 
-    priority: medium       # high | medium | low
-    milestone: v1.6.0
