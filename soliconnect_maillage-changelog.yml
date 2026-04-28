@@ -3,6 +3,44 @@ description: Maillage Soliconnect - Suivi des évolutions et correctifs
 repository: https://github.com/KolibriConsulting/changelog
 
 versions:
+  - version: "1.5.3"
+    date: "2026-04-28"
+    changes:
+      - type: fixed
+        description: Correction de la mise en majuscule automatique du nom et prénom lors de l’inscription
+
+  - version: "1.5.2"
+    date: "2026-04-28"
+    changes:
+      - type: fixed
+        description: Mise à jour du formulaire d’inscription
+
+  - version: "1.5.1"
+    date: "2026-04-28"
+    changes:
+      - type: fixed
+        description: Correction de la casse des noms dans l’affichage
+      - type: fixed
+        description: Résolution des erreurs de casse pour le nom d’utilisateur, le nom et le rôle
+      - type: fixed
+        description: Correction de l’email dans le pied de page
+      - type: removed
+        description: Suppression de l’affichage du budget dans l’en-tête du formulaire d’action
+
+  - version: "1.5.0"
+    date: "2026-04-27"
+    changes:
+      - type: added
+        description: Ajout de la fonctionnalité de duplication d’article
+
+  - version: "1.4.1"
+    date: "2026-04-27"
+    changes:
+      - type: fixed
+        description: Ajustement de la taille des sections sur la page d’accueil
+      - type: fixed
+        description: Mise à jour du texte de visibilité
+
   - version: "1.4.0"
     date: "2026-04-20"
     changes:
